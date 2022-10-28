@@ -9,5 +9,6 @@ def main(list1):
     s=[]
     for i in list1:
         s.append(i.title())
+        
     return s
 print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
