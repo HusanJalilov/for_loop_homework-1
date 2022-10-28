@@ -9,4 +9,5 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    m=range(n)
+    return m
