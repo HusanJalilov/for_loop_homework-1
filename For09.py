@@ -6,4 +6,7 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    s=0
+    for i in range(10):
+        s+=price
+    return s
