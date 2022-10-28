@@ -6,5 +6,8 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return list1.upper()
+    s=[]
+    for i in list1:
+        s.append(i.title())
+    return s
 print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
